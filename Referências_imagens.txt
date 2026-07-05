@@ -1,0 +1,78 @@
+Imagens capturadas diretamente do jogo digimon masters online:
+{
+   -beira_mar.PNG
+   -canyon.PNG
+   -d_reaper_leste.PNG
+   -dats.PNG
+   -deserto.PNG
+   -Digimon_farm.PNG
+   -file_island_waterfront.PNG
+   -lost_historic.PNG
+   -montanha_infinita.PNG
+   -piramide.PNG
+   -silent_forest.PNG
+   -silver_lake.PNG
+   -vila_leste.PNG
+   -vila_yokohama.PNG
+}
+
+Imagens do dmowiki
+{
+   link:  https://dmowiki.com/Clothing
+   -anel_arena.png
+   -anel_bellial.png
+   -anel_bestas_sagradas.png
+   -bracelete_royal_x.png
+   -bracelete_vital.png
+   -brinco_bestas_sagradas.png
+   -brinco_chimera.png
+   -brinco_milagroso.png
+   -colar_armagemon.png
+   -colar_bestas_sagradas.png
+   -colar_milagroso.png
+}
+
+Imagens Digimon
+{
+   -Darknessbgamon.png
+   -Link: https://vsbattles.fandom.com/wiki/Bagramon#DarknessBagramon
+
+   -Imperialdramon_FM.png
+   -Link: https://digimon.fandom.com/wiki/Gallery:Imperialdramon_Fighter_Mode?file=Imperialdramon_Fighter_Mode_%28Re-Digitize%29_b.jpg
+
+   -Lucemon_Satan_Mode.png
+   -Link: https://wikimon-france.fandom.com/fr/wiki/Lucemon_Satan_Mode
+
+   -Metal_Garurumon.png
+   -Link: https://digitalmonster.fandom.com/pt/wiki/MetalGarurumon#Toei
+
+   -Omegamon_X.png
+   -Link: https://digitalmonster.fandom.com/pt/wiki/Omegamon_(Anticorpo_X)
+
+   -Ordinemon.png
+   -https://vsbattles.fandom.com/wiki/Ordinemon
+
+   -Shoutmon_X7.png
+   -Link: https://digitalmonster.fandom.com/pt/wiki/Shoutmon_X7#Toei
+
+   -Susanoomon.png
+   -Link: https://omniversal-battlefield.fandom.com/wiki/Susanoomon
+}
+
+Outros
+{
+   -acessorios.png
+   -Link: https://dribbble.com/shots/16709136-Friendship-crest
+
+   -digimon.png
+   -Link: https://digimon-adventure.fandom.com/wiki/Agumon
+
+   -levelup.png
+   -quests.png
+   -Link: https://www.hiclipart.com/free-transparent-background-png-clipart-qqzvw
+}
+
+Gerada por I.A
+{
+   -logo.png
+}

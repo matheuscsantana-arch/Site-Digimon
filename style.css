@@ -1,0 +1,726 @@
+:root{
+    --primary: #2F6FED;
+    --primary-dark: #183B7A;
+    --text-light: #F8FAFC;
+    --card-border: #5B8FF7;
+    --shadow: rgba(15, 23, 42, 0.18);
+    --body-bg: #10233f;
+}
+
+/* Todas as páginas */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--body-bg);
+    color: var(--text-light);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+
+    /* Alinhamento no eixo principal */
+    justify-content: center;
+
+    /* Alinhamento no eixo secundário */
+    align-items: center;
+}
+
+header img{
+    
+    /* Largura da logo */
+    width: 400px;
+}
+
+/* ============================================================================ */
+
+/* Página principal */
+.cards ul{
+    /* Remove os tópicos da lista */
+    list-style-type: none;
+    display: flex;
+
+    /* Espaçamento */
+    gap: 30px;
+
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.cards li{
+    background: linear-gradient(
+        180deg,
+        #0f2748 0%,
+        #17355e 45%,
+        #21466f 100%);
+    border-radius: 12px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 8px var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.cards li:hover{
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 6px 14px rgba(15, 23, 42, 0.26);
+    filter: brightness(1.08);
+}
+
+.cards li a{
+    /* Remove o underscore e a cor do texto */
+    text-decoration: none;
+    color: inherit;
+}
+
+.cards a h2{
+    /* Tipo e tamanho de fonte */
+    font-family: "Eurostile Extended", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+
+    /* Cor gradiente em fonte */
+    background: linear-gradient(to bottom, #FFE66D, #D88A16);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.cards ul img{
+    /* Largura dos ícones */
+    width: 200px;
+    height: 150px;
+}
+
+.sugestao{
+    justify-self: center;
+}
+.sugestao button{
+    margin-top: 50px;
+    height: 50px;
+    width: 250px;
+    color: var(--text-light);
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    border-radius: 12px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 8px var(--shadow);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.sugestao button:hover{
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 6px 14px rgba(15, 23, 42, 0.26);
+    filter: brightness(1.08);
+}
+
+.formulario{
+    justify-self: center;
+    margin-top: 20px;
+}
+
+#nome,#email{
+    width: 400px;
+    height: 25px;
+}
+
+#mensagem{
+    width: 400px;
+    height: 150px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.mensagem-submit{
+    color: var(--text-light);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+/* ============================================================================ */
+
+/* Páginas secundárias */
+.pagina-secundaria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagina-secundaria a{
+    text-decoration: none;
+    font-family: "Eurostile Extended", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    background: linear-gradient(to bottom, #FFE66D, #D88A16);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.pagina-secundaria h1{
+    /* Tipo e tamanho de fonte */
+    font-family: "Eurostile Extended", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+
+    /* Cor gradiente em fonte */
+    background: linear-gradient(to bottom, #FFE66D, #D88A16);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.botoes ul{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.botoes button{
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    border-radius: 12px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 2px 8px var(--shadow);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.botoes button:hover{
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 6px 14px rgba(15, 23, 42, 0.26);
+    filter: brightness(1.08);
+}
+
+.botoes button span{
+    text-align: center;
+    font-family: "Eurostile Extended", sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    background: linear-gradient(to bottom, #FFE66D, #D88A16);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* ============================================================================ */
+
+/* Página level up */
+.nivelamento{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.nivelamento article{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    height: 450px;
+    width: 1000px;
+    background: linear-gradient(
+        180deg,
+        #0f2748 0%,
+        #17355e 45%,
+        #21466f 100%);
+    border-radius: 12px;
+    border: 4px solid var(--card-border);
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.nivelamento img{
+    height: 400px;
+    width: 500px;
+}
+
+.nivelamento h2{
+    text-align: center;
+}
+
+.nivelamento ul{
+    list-style-type: none;
+    width: 360px;
+}
+
+.nivelamento li{
+    margin-top: 10px;
+}
+
+.nivelamento li::marker{
+    content: "✯ ";
+    color: orange;
+    ;
+}
+
+.nivelamento-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.nivelamento-2 article{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    height: 450px;
+    width: 1000px;
+    background: linear-gradient(
+        180deg,
+        #0f2748 0%,
+        #17355e 45%,
+        #21466f 100%);
+    border-radius: 12px;
+    border: 4px solid var(--card-border);
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.nivelamento-2 img{
+    height: 400px;
+    width: 500px;
+}
+
+.nivelamento-2 h2{
+    text-align: center;
+    width: 360px;
+}
+
+.nivelamento-2 ul{
+    list-style-type: none;
+    width: 360px;
+}
+
+.nivelamento-2 li{
+    margin-top: 10px;
+}
+
+.nivelamento-2 li::marker{
+    content: "✯ ";
+    color: orange;
+    ;
+}
+
+/* ============================================================================ */
+
+/* Página acessorios */
+
+.acessorios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.acessorios article{
+    display: flex;
+    gap: 40px;
+    height: 250px;
+    width: 500px;
+    padding: 20px;
+    background: linear-gradient(
+        180deg,
+        #0f2748 0%,
+        #17355e 45%,
+        #21466f 100%);
+    border-radius: 12px;
+    border: 4px solid var(--card-border);
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.acessorios img{
+    height: 200px;
+    width: 250px;
+}
+
+.acessorios h2{
+    text-align: center;
+    width: 150px;
+}
+
+.acessorios ul{
+    list-style-type: none;
+    width: 150px;
+}
+
+.acessorios li{
+    margin-top: 5px;
+}
+
+
+.acessorios li::marker{
+    content: "✯ ";
+    color: orange;
+    ;
+}
+
+/* ============================================================================ */
+
+/* Página missões */
+
+.missoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.missoes article{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    height: 450px;
+    width: 1000px;
+    background: linear-gradient(
+        180deg,
+        #0f2748 0%,
+        #17355e 45%,
+        #21466f 100%);
+    border-radius: 12px;
+    border: 4px solid var(--card-border);
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.missoes img{
+    height: 400px;
+    width: 500px;
+}
+
+.missoes h2{
+    text-align: center;
+    width: 360px;
+}
+
+.missoes ul{
+    list-style-type: none;
+    width: 360px;
+}
+
+.missoes li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.missoes li::marker{
+    content: "✯ ";
+    color: orange;
+    ;
+}
+
+.missoes-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.missoes-2 article{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    height: 450px;
+    width: 1000px;
+    background: linear-gradient(
+        180deg,
+        #0f2748 0%,
+        #17355e 45%,
+        #21466f 100%);
+    border-radius: 12px;
+    border: 4px solid var(--card-border);
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.missoes-2 img{
+    height: 400px;
+    width: 500px;
+}
+
+.missoes-2 h2{
+    text-align: center;
+    width: 360px;
+}
+.missoes-2 ul{
+    list-style-type: none;
+    width: 360px;
+}
+
+.missoes-2 li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.missoes-2 li::marker{
+    content: "✯ ";
+    color: orange;
+    ;
+}
+
+/* ============================================================================ */
+
+/* Página digimon */
+
+.digimon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.digimon article{
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+    height: 450px;
+    width: 1000px;
+    background: linear-gradient(
+        180deg,
+        #0f2748 0%,
+        #17355e 45%,
+        #21466f 100%);
+    border-radius: 12px;
+    border: 4px solid var(--card-border);
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.digimon img{
+    height: 400px;
+    width: 500px;
+}
+
+.digimon h2{
+    text-align: center;
+    width: 360px;
+}
+
+.digimon ul{
+    list-style-type: none;
+    width: 360px;
+}
+
+.digimon li{
+    margin-top: 8px;
+}
+
+.digimon li::marker{
+    content: "✯ ";
+    color: orange;
+    ;
+}
+
+/* ============================================================================ */
+
+/* Conteúdo escondido */
+.hidden{
+    display: none;
+}
+
+/* ============================================================================ */
+
+/* Responsividade */
+@media (max-width: 1024px){
+    header img{
+        width: 320px;
+    }
+
+    .cards ul{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .cards li{
+        width: 260px;
+        height: 180px;
+    }
+
+    .cards ul img{
+        width: 170px;
+        height: 120px;
+    }
+
+    .botoes ul{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .botoes button{
+        width: 130px;
+    }
+
+    .nivelamento article,
+    .nivelamento-2 article,
+    .missoes article,
+    .missoes-2 article,
+    .digimon article{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nivelamento img,
+    .nivelamento-2 img,
+    .missoes img,
+    .missoes-2 img,
+    .digimon img{
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+    }
+
+    .nivelamento ul,
+    .nivelamento-2 ul,
+    .missoes ul,
+    .missoes-2 ul,
+    .digimon ul{
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .acessorios article{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .acessorios img{
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+    }
+
+    .acessorios h2,
+    .acessorios ul{
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        font-size: 15px;
+    }
+
+    header img{
+        width: 260px;
+    }
+
+    .pagina-secundaria a{
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .pagina-secundaria h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .cards ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards li{
+        width: min(90vw, 300px);
+    }
+
+    .cards a h2{
+        font-size: 22px;
+    }
+
+    .botoes ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botoes button{
+        width: min(80vw, 180px);
+    }
+
+    .nivelamento article,
+    .nivelamento-2 article,
+    .missoes article,
+    .missoes-2 article,
+    .digimon article{
+        padding: 16px;
+        gap: 20px;
+    }
+
+    .nivelamento h2,
+    .nivelamento-2 h2,
+    .missoes h2,
+    .missoes-2 h2,
+    .digimon h2{
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .acessorios article{
+        padding: 16px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px){
+    header img{
+        width: 220px;
+    }
+
+    .cards li{
+        height: 160px;
+    }
+
+    .cards ul img{
+        width: 140px;
+        height: 100px;
+    }
+
+    .cards a h2{
+        font-size: 20px;
+    }
+
+    .botoes button{
+        height: 46px;
+        width: 100%;
+        max-width: 220px;
+    }
+
+    .botoes button span{
+        font-size: 15px;
+    }
+
+    .nivelamento article,
+    .nivelamento-2 article,
+    .missoes article,
+    .missoes-2 article,
+    .digimon article,
+    .acessorios article{
+        width: 95%;
+        padding: 12px;
+    }
+
+    .nivelamento li,
+    .nivelamento-2 li,
+    .missoes li,
+    .digimon li,
+    .acessorios li{
+        font-size: 14px;
+    }
+}

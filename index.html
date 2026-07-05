@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <img src="./Assets/Imagens/logo.png" alt="logo do site">
+    </header>
+
+    <main>
+
+        <section class="cards">
+
+            <nav>
+                <ul>
+                    <!-- Link página Level up -->
+                    <li>
+                        <a href="./levelup.html">
+                            <h2>Level up</h2>
+                            <img src="./Assets/Imagens/levelup.png" alt="Seta pra cima dentro de um Digivice">
+                        </a>
+                    </li>
+
+                    <!-- Link página Digimon -->
+                    <li>
+                        <a href="./digimon.html">
+                            <h2>Digimon</h2>
+                            <img src="./Assets/Imagens/digimon.png" alt="Digimon fulano">
+                        </a>                       
+                    </li>
+
+                    <!-- Link página Acessórios -->
+                    <li>
+                        <a href="./acessorios.html">
+                            <h2>Acessórios</h2>
+                            <img src="./Assets/Imagens/acessorios.png" alt="Colar da amizade digimon adventure">
+                        </a>
+                    </li>
+
+                    <!-- Link página Missões -->
+                    <li>
+                        <a href="./missoes.html">
+                            <h2>Missões</h2>
+                            <img src="./Assets/Imagens/quests.png" alt="Exclamação dentro de um Digivice">
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </section>
+
+        <section>
+            <div class="sugestao">
+                <button class="btn-sugestao">Envie sua sugestão</button>
+            </div>
+            
+            <div class="mensagem-submit"></div>
+            
+            <!-- Formulário sugestões escondido-->
+            <form class="formulario hidden">
+
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="10" cols="50"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <script src="./pagina_principal.js"></script>
+</body>
+</html>
