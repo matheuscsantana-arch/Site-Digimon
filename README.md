@@ -55,7 +55,7 @@ Além disso, o projeto conta com:
 
 Após executar o programa, o usuário visualiza o menu principal com as opções de conversão:
 
-![Página Principal](Assets/Imagens/pagina-principal)
+![Página Principal](./Assets/Imagens/pagina-principal)
 
 ![Página Principal](Assets/Imagens/pagina-nivelamento)
 
