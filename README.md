@@ -55,15 +55,15 @@ Além disso, o projeto conta com:
 
 Após executar o programa, o usuário visualiza o menu principal com as opções de conversão:
 
-![Página Principal](./Assets/Imagens/pagina-principal)
+![Página Principal](Assets/Imagens/pagina-principal.PNG)
 
-![Página Principal](Assets/Imagens/pagina-nivelamento)
+![Página Principal](Assets/Imagens/pagina-nivelamento.PNG)
 
-![Página Principal](Assets/Imagens/pagina-digimon)
+![Página Principal](Assets/Imagens/pagina-digimon.PNG)
 
-![Página Principal](Assets/Imagens/pagina-acessorios)
+![Página Principal](Assets/Imagens/pagina-acessorios.PNG)
 
-![Página Principal](Assets/Imagens/pagina-missoes)
+![Página Principal](Assets/Imagens/pagina-missoes.PNG)
 
 ## 🚀 Status do Projeto
 
