@@ -53,15 +53,17 @@ Além disso, o projeto conta com:
 
 ## 💡 Exemplo de uso
 
-Adicione aqui capturas de tela das principais páginas do projeto.
+Após executar o programa, o usuário visualiza o menu principal com as opções de conversão:
 
-Exemplo:
+![Página Principal](Assets/Imagens/pagina-principal)
 
-Página Inicial
-Tela de Level Up
-Catálogo de Digimons
-Página de Missões
-Página de Acessórios
+![Página Principal](Assets/Imagens/pagina-nivelamento)
+
+![Página Principal](Assets/Imagens/pagina-digimon)
+
+![Página Principal](Assets/Imagens/pagina-acessorios)
+
+![Página Principal](Assets/Imagens/pagina-missoes)
 
 ## 🚀 Status do Projeto
 
