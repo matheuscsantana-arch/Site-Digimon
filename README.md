@@ -53,16 +53,20 @@ Além disso, o projeto conta com:
 
 ## 💡 Exemplo de uso
 
-Após executar o programa, o usuário visualiza o menu principal com as opções de conversão:
+1. Selecione uma das opções disponíveis no menu da página principal. OBS: O campo de enviar sugestões é meramente ilustrativa.
 
 ![Página Principal](Assets/Imagens/pagina-principal.PNG)
 
+2. Selecione uma das opções disponíveis no menu da página de nivelamento ou clique em Home para ir à página principal
 ![Página Principal](Assets/Imagens/pagina-nivelamento.PNG)
 
+3. Selecione uma das opções disponíveis no menu da página de digimons ou clique em Home para ir à página principal
 ![Página Principal](Assets/Imagens/pagina-digimon.PNG)
 
+4. Selecione uma das opções disponíveis no menu da página de acessórios ou clique em Home para ir à página principal
 ![Página Principal](Assets/Imagens/pagina-acessorios.PNG)
 
+5. Selecione uma das opções disponíveis no menu da página de missões ou clique em Home para ir à página principal
 ![Página Principal](Assets/Imagens/pagina-missoes.PNG)
 
 ## 🚀 Status do Projeto
