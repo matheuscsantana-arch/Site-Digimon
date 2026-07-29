@@ -55,7 +55,9 @@ Além disso, o projeto conta com:
 
 1. Selecione uma das opções disponíveis no menu da página principal. OBS: O campo de enviar sugestões é meramente ilustrativa.
 
-<img src="Assets/Imagens/pagina-principal.PNG" alt="Página Principal" width="700">
+<p align="center">
+  <img src="Assets/Imagens/pagina-principal.PNG" alt="Página Principal" width="700">
+</p>
 
 2. Selecione uma das opções disponíveis no menu da página de nivelamento ou clique em Home para ir à página principal
 ![Página Principal](Assets/Imagens/pagina-nivelamento.PNG)
