@@ -60,16 +60,28 @@ Além disso, o projeto conta com:
 </p>
 
 2. Selecione uma das opções disponíveis no menu da página de nivelamento ou clique em Home para ir à página principal
-![Página Principal](Assets/Imagens/pagina-nivelamento.PNG)
+
+<p align="center">
+  <img src="Assets/Imagens/pagina-nivelamento.PNG" alt="Página Nivelamento" width="700">
+</p>
 
 3. Selecione uma das opções disponíveis no menu da página de digimons ou clique em Home para ir à página principal
-![Página Principal](Assets/Imagens/pagina-digimon.PNG)
+
+<p align="center">
+  <img src="Assets/Imagens/pagina-digimon.PNG" alt="Página Digimon" width="700">
+</p>
 
 4. Selecione uma das opções disponíveis no menu da página de acessórios ou clique em Home para ir à página principal
-![Página Principal](Assets/Imagens/pagina-acessorios.PNG)
+
+<p align="center">
+  <img src="Assets/Imagens/pagina-acessorios.PNG" alt="Página Acessórios" width="700">
+</p>
 
 5. Selecione uma das opções disponíveis no menu da página de missões ou clique em Home para ir à página principal
-![Página Principal](Assets/Imagens/pagina-missoes.PNG)
+
+<p align="center">
+  <img src="Assets/Imagens/pagina-missoes.PNG" alt="Página Missões" width="700">
+</p>
 
 ## 🚀 Status do Projeto
 
